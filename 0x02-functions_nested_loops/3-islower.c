@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *islower - lower alphabet
+ *_islower - lower alphabet
  *@c: parameter or argument sent
  *
  * Return: return 1 for lower case
