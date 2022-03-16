@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *times_table - time table
+ *times_table - mathematics calculator 
  *
  *Return: return none
  */
@@ -21,7 +21,7 @@ if ((c / 10) == 0)
 {
 if (b == 0)
 {
-_putchar('0);
+_putchar('0');
 }
 if (b != 0)
 {
