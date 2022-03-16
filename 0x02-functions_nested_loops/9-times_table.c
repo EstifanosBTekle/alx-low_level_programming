@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *times_table - mathematics calculator 
+ *times_table - mathematics calculator
  *
  *Return: return none
  */
