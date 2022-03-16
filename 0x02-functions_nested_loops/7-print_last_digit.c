@@ -20,8 +20,9 @@ return (lastdigit);
 
 else
 {
-lastdigit = (n % 10):
+lastdigit = (n % 10);
 _putchar(lastdigit + '0');
 return (lastdigit);
 }
+
 }
