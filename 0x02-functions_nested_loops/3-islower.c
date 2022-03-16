@@ -2,7 +2,7 @@
 
 /**
  *islower - lower alphabet
- *int c: parameter or argument sent 
+ *@c: parameter or argument sent
  *
  * Return: return 1 for lower case
  */
