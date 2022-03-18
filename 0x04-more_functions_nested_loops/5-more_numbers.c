@@ -9,36 +9,16 @@
 void more_numbers(void)
 {
 int i;
-int first_number;
-int second_number;
-int result;
 
-i = 0;
-result = 0;
+for (i = 0; i < 10; i++)
+{
+int j;
 
-while (i <10)
+for (j = 0; j <= 14; j++)
 {
-while (result <= 14)
-{
-if (result < 10)
-{
-second_number = result;
+_putchar (i + '0');
 }
 
-else
-{
-first_number = result / 10;
-second_number = result % 10;
-_putchar (first_number + '0');
+_putchar ('\n');
 }
-
-_putchar (second_number + '0');
-
-result++;
-}
-i++;
-result = 0;
-_putchar ('\n);
-}
-
 }
