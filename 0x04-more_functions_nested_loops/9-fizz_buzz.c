@@ -8,7 +8,7 @@
 
 int main(void)
 {
-in p = 100;
+int p = 100;
 int i;
 
 i = 1;
