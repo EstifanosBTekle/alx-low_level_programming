@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- *main - entry point
- *
- *Return: return 0
- */
+*main - entry point
+*
+*Return: always 0
+*/
 
 int main(void)
 {
-int p = 100;
+in p = 100;
 int i;
 
-while (i <= p)
+i = 1;
+while (i < p)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
@@ -25,18 +26,21 @@ printf("Fizz ");
 
 else if (i % 5 == 0)
 {
+if (i < p)
 printf("Buzz ");
+
+else
+printf("Buzz");
 }
 
 else
 {
-printf("%d ", i);
+printf("%i ", i);
 }
 
 i++;
 }
 
-printf('\n'');
+printf("\n");
 return (0);
 }
-
