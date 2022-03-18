@@ -7,7 +7,7 @@
  *Return: return none
  */
 
-void print_daigonal(int n)
+void print_diagonal(int n)
 {
 int i;
 int b;
